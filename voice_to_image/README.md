@@ -36,6 +36,31 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+
+## Usage Report
+
+Here is a quick walkthrough of the app in action:
+
+### 1. Recording
+We start by recording a voice message or uploading a file.
+
+![Recording Phase](screenshots/step1_record.png)
+
+### 2. Processing
+The agent listens (Whisper), thinks (GPT-4o), and draws (DALL-E 3).
+
+![Processing Phase](screenshots/step2_processing.png)
+
+### 3. Results
+The final output shows the transcript, the enhanced prompt, and the generated image.
+
+![Final Result](screenshots/step3_results.png)
+
+### Console Logs
+You can see the agent's internal thought process in the terminal logs.
+
+![Console Logs](screenshots/console_logs.png)
+
 ## Stuff used
 
 - Python 3.12
