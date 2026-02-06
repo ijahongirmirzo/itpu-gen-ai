@@ -50,8 +50,40 @@ The agent is pretty good at aggregation. I usually ask:
 ### Dashboard
 The sidebar gives me a quick look at my totals. I like seeing the "Total Filament (kg)" go up (or cry when I see total cost).
 
+
+## Usage Report
+
+Here is a glimpse into how the analytics agent helps track and improve 3D printing workflows.
+
+### 1. Dashboard Overview
+The main dashboard gives a high-level view of printer performance, material usage, and overall costs.
+
+![Dashboard Overview](screenshots/screenshot1.png)
+
+### 2. Conversational Analytics
+Instead of writing complex SQL, I can just ask the AI about specific trends or failure patterns.
+
+![Chat Interface](screenshots/screenshot2.png)
+
+### 3. Detailed Logs
+The app maintains a full history of every print job, allowing for easy auditing of settings and materials.
+
+![Data Logs](screenshots/screenshot3.png)
+
+### 4. Failure Deep-Dive
+One of the most useful features is identifying *why* certain printers or materials fail more often than others.
+
+![Failure Analysis](screenshots/screenshot4.png)
+
+### 5. Cost & Material Tracking
+Seeing the actual cost per print helps in deciding which filaments are best for which projects.
+
+![Cost Tracking](screenshots/screenshot5.png)
+
 ## Tech Stack
 - **Python** & **Streamlit** for the UI.
 - **SQLite** for the database (simple, local).
 - **OpenAI GPT-4o-mini** for the reasoning/SQL generation.
 - **Plotly** for the charts.
+
+Enjoy! 🎨
